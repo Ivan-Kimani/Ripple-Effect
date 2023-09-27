@@ -1,12 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
+  @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:ital,wght@0,400;0,500;0,700;1,600&display=swap');
+
+
+  
+  @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     border: none;
     scroll-behavior: smooth;
-    font-family: 'Poppins', sans-serif;
+
 
   
 }
@@ -38,6 +42,7 @@ html{
     align-items: center;
     z-index: 100;
     transition:.5s ;
+    font-family: 'Poppins', sans-serif;
 }
 
 .logo{
@@ -68,7 +73,7 @@ html{
 
 .navbar a{
 position: relative;
-font-size: 1.2rem;
+font-size: 18.5px;
 color:#fff;
 font-weight: 500;
 left: 410px;
@@ -86,8 +91,8 @@ transition: .5s ease-in forwards;
 
  .img-bg img{
     width: 100%;
-    height: 100%;
-    object-fit: cover;
+    height: 10%;
+  
  }
 
  .wrapper{
@@ -99,6 +104,7 @@ transition: .5s ease-in forwards;
 color:#7F3814;
 font-size: 46px;
 font-weight: 700;
+font-family: 'Poppins', sans-serif;
 text-transform: uppercase;
 text-align: center;
 padding: 40px 0px;
@@ -131,6 +137,7 @@ article{
 article h3{
   font-size: 18px;
   font-weight: 500;
+  font-family: 'Poppins', sans-serif;
   color: #7F3814;
 
 }
@@ -138,51 +145,11 @@ article p{
     margin-bottom: 19px;
     font-size: 15px;
     color: #000;  
+    font-family: 'Poppins', sans-serif;
     margin-top: 20px;
   }
 
 
-  .services{
-    min-height: auto;
-    padding-bottom: 7rem;
-  }
-
-  .services h2{
-    margin-bottom: 5rem;
-    color: #7F3814;
-  }
-
-  .services .services-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 1.5rem;
-  }
-
-  .services-container .services-box{
-    flex: 1px;
-    background: #fff;
-    padding:19px;
-    border-radius: 12px;
-    box-shadow: 0 .1rem .5rem bisque;
-    text-align: center;
-    border-top: .4rem solid  #73dbd3;
-    border-bottom: .4rem solid  #76ddd4;
-  }
-  .services-container .services-box:hover{
-    box-shadow: 0 1rem 2rem #7F3814;
-    transform: scale(1.02);
-  }
-
-  .services-box h3{
-    font-size: 1.2rem;
-    transition: .5s ease;
-  }
-  .services-box p{
-    font-size: .9rem;
-    margin: 1rem 0 3rem;
-  }
 
 .testimonial{
 position: relative;
@@ -225,6 +192,7 @@ border-radius: 50%;
   margin-bottom: 40px;
   text-transform: uppercase;
   font-size: 40px;
+  font-family: 'Poppins', sans-serif;
   color: #7F3814;
 }
 
@@ -233,6 +201,7 @@ border-radius: 50%;
   text-align: center;
   font-size: 13.5px;
   font-weight: 500;
+  font-family: 'Poppins', sans-serif;
   color: #333;
 }
 
@@ -250,12 +219,14 @@ border-radius: 50%;
 
 .details .name{
 font-size: 16px;
+font-family: 'Poppins', sans-serif;
 font-weight: 700;
 color: #7F3814;
 }
 .details .job{
   font-size: 13px;
   font-weight: 700;
+  font-family: 'Poppins', sans-serif;
   color: #7F3814;
   }
 
@@ -263,6 +234,7 @@ color: #7F3814;
   .contact h2{
     margin-top: 4rem;
     color: #7F3814;
+    font-family: 'Poppins', sans-serif;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -288,6 +260,7 @@ color: #7F3814;
     width: 100%;
     padding: 1rem;
     font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
     color: #333;
     background-color:#fdfdfd ;
     border-radius: .6rem;
@@ -307,6 +280,7 @@ color: #7F3814;
   .contact form .btn{
     margin-top: 2rem;
     cursor: pointer;
+    font-family: 'Poppins', sans-serif;
   }
 
   .footer{
@@ -343,3 +317,55 @@ color: #7F3814;
      font-size: 1.4rem;
      color: #333;
      }
+
+
+     body {
+      font-family: Arial, sans-serif;
+  }
+  
+  .carousel {
+
+      width: 100%; 
+      margin: 0 auto;
+      overflow: hidden;
+  }
+  
+  .img-bg{
+    display: none;
+    animation:  1s ease forwards;
+  }
+
+  .img-bg img{
+    width: 100%;
+    height: auto;
+  }
+
+  .carousel{
+
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+  
+  .carousel-text {
+      position: absolute;
+      bottom: 95px;
+      font-family: 'Lobster',cursive;
+      left: 10px;
+      color: #fff;
+    
+      
+  }
+  
+  .carousel-text h2 {
+      margin: 0;
+      font-size: 98px;
+  }
+  
+  .carousel-text p {
+      margin: 0;
+      font-size: 36px;
+  }
+  
+
+  
